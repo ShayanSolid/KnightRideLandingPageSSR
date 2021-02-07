@@ -13,7 +13,7 @@ export default {
       'und kannst noch einfacher ' +
       'Mitnehmen als je zuvor. ' +
       'Mit dem Bus. Mit der Bahn. ' +
-      'Probier es aus.',
+      'Probier es aus!',
     register_text: 'Bekommst es mit sobald wir launchen!',
   },
   sectionB: {
@@ -27,7 +27,7 @@ export default {
       head: 'Schnelle Kommunikation und Zugang zu Rides',
       body: 'Du hast den passenden Ride für dich \n' +
         'gefunden? Dann schreib den Knight\n' +
-        'einfach mit “    „ an und fangt an\n' +
+        'einfach mit “Chat-Knopf„ an und fangt an\n' +
         'zu chatten um alles weitere zu klären.\n' +
         'Geht tausend Mal schneller als auf eine\n' +
         'Anfrage zu warten',
@@ -35,7 +35,7 @@ export default {
     chat: {
       head: 'Messaging on Top',
       body: 'Man könnte es einen kleinen Messenger  \n' +
-        'nennen. Mit unserer implementierten\n' +
+        'nennen. Mit unserer integrierten\n' +
         'Chatfunktion wirst du umgehend von uns \n' +
         'benachrichtigt wenn du eine Nachricht\n' +
         'von deinem Knight oder Rider empfängst.\n' +
@@ -81,7 +81,7 @@ export default {
     },
     rider: {
       name: 'Der Rider',
-      description: 'er Rider sucht nach einer Mitfahrgelegenheit und ist kommunikativ.\n' +
+      description: 'Der Rider sucht nach einer Mitfahrgelegenheit und ist kommunikativ.\n' +
         'Sein Ziel ist es meistens so günstig und schnell wie möglich von A nach B\n' +
         'zu kommen.'
     }

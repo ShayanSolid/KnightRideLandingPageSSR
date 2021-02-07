@@ -5,120 +5,95 @@ export default {
     app: 'The App',
     KnightAndRider: 'Knight & Rider',
     aboutUs: 'About us',
-    help: 'Hilfe',
-    contact: 'Kontakt'
+    help: 'Help',
+    contact: 'Contact'
   },
   sectionA: {
     short_description: 'Sharing a ride in public transportation' +
-      ' was never been easier before. You can be driven on the bus,' +
-      ' on the tram, on the train. Check it out',
+      ' has never been easier. You can be driven on the bus,' +
+      ' on the tram, on the train.\n ' +
+      '\n Try it out!',
     register_text: 'Be informed as soon as we go live!',
   },
   sectionB: {
     create_ride: {
-      head: 'Sei ein Held und nimm mit.',
-      body: 'Du bist schneller durch als du denkst.\n' +
-        'In nur Sekunden hast du auf \n' +
-        'Knightride einen Ride angeboten.',
+      head: 'Be a Hero and share your ticket!',
+      body: 'You are much faster than you think. In KnightRide you can create a new ride offer within seconds.',
     },
     accept_ride: {
-      head: 'Schnelle Kommunikation und Zugang zu Rides',
-      body: 'Du hast den passenden Ride für dich \n' +
-        'gefunden? Dann schreib den Knight\n' +
-        'einfach mit “    „ an und fangt an\n' +
-        'zu chatten um alles weitere zu klären.\n' +
-        'Geht tausend Mal schneller als auf eine\n' +
-        'Anfrage zu warten',
+      head: 'Fast communication and access to all rides',
+      body: 'Have you found the right ride? Then text your Knight with the "chat" button' +
+        'to clarify everything else. It works much faster than waiting for a request',
     },
     chat: {
       head: 'Messaging on Top',
-      body: 'Man könnte es einen kleinen Messenger  \n' +
-        'nennen. Mit unserer implementierten\n' +
-        'Chatfunktion wirst du umgehend von uns \n' +
-        'benachrichtigt wenn du eine Nachricht\n' +
-        'von deinem Knight oder Rider empfängst.\n' +
-        'So bist du immer up to date und \n' +
-        'verpasst keine wichtigen Mitteilungen\n' +
-        'über deinen Ride.\n',
+      body: 'You can call it a small messenger. With our integrated messaging function' +
+        ' you\'ll be informed as soon as your Rider or Knight texts you. So you are up to date ' +
+        'and won\'t miss any important information about your ride.',
     },
     profile1: {
-      head: 'Knight oder Rider\n' +
-        'checken',
-      body: 'Und natürlich ist man manchmal auch einfach nur neugierig oder möchte' +
-        'auf Nummer sicher gehen. Mach dir ein umfangreiches Bild von \n' +
-        'deinem Knight oder Rider. Wie wurde er bewertet? Wie oft war \n' +
-        'er/sie/es schon Knight oder ist mitgefahren? Falls eine Bio hinterlassen worden\n' +
-        'ist um so besser.\n',
+      head: 'Checking the Knight or Rider',
+      body: 'And of course you can be curios sometimes or want to play it safe. Get to know' +
+        'your Knight or Rider. How are their reviews? How often were they a Knight or Rider?' +
+        'Even better if they have written a Bio about themselves',
     },
     profile2: {
-      head: 'Alle deine Rides\n' +
-        'easy im Blick behalten',
-      body: 'Du kannst ganz einfach sehen\n' +
-        'wo du jemanden mitnehmen wirst,\n' +
-        'bei welchem Ride du selbst\n' +
-        'mitfährst, sehen wen du mitnimmst \n' +
-        'oder bei wem du mitfährst und vieles\n' +
-        'mehr.',
+      head: 'Easily keep eep an eye on all your rides',
+      body: 'You can easily see where do you take someone with you, in which ride your are ' +
+        'going with, who is the one, whom you are taking on your ticket or who is sharing her/his ' +
+        'ticket with you and much more',
     },
     profile3: {
-      head: 'Aufrufe im Blick haben \n' +
-        'und reagieren',
-      body: 'Sieh wer sich für deinen Ride interessiert \n' +
-        'und reagiere mit einer Nachricht.',
+      head: 'Have an eye on your rides\' views and react',
+      body: 'See who is interested in your ride and respond them with a message.',
     }
   },
   sectionC: {
     knight: {
-      name: 'Der Knight',
-      description: 'Der Knight besitzt eine Abo-Karte oder eine gekaufte Karte\n' +
-        'der Verkehrsbetriebe mit dieser er berechtigt ist, je nach Bundesland eine oder mehrere\n' +
-        'Personen an Wochentagen ab 19Uhr und am Wochenende ganztägig\n' +
-        'mitzunehmen.\n' +
-        'Der Knight ist großzügig und warmherzig. Wenn er gebraucht wird fühlt er\n' +
-        'sich richtig. Unser/e Ritter/in in der goldenen Rüstung eben.'
+      name: 'The Knight',
+      description: 'The Knight owns a subscription or a purchased ticket, with which' +
+        'she/he can take another person or multiple people for free on her/his ticket' +
+        'Taking additional passengers with these tickets are often possible during the whole day on weekends' +
+        'and from 7pm during the week days.' +
+        'The knight is generous and supportive and doesnt hesitate to help.'
     },
     rider: {
-      name: 'Der Rider',
-      description: 'er Rider sucht nach einer Mitfahrgelegenheit und ist kommunikativ.\n' +
-        'Sein Ziel ist es meistens so günstig und schnell wie möglich von A nach B\n' +
-        'zu kommen.'
+      name: 'The Rider',
+      description: 'The rider is looking for a ride. The Rider is communicative and wants ' +
+        'to get from A to B as cheaply and quickly as possible.'
     }
   },
   sectionD: {
     mission: {
-      title: 'Unsere Mission',
-      body:'Dir den schnellsten Zugang\n' +
-        'zu einer Mitfahrgelegenheit\n' +
-        'zu ermöglichen und diese auch langfristig für dich zugänglich\n' +
-        'zu machen. Für den öffentlichen Nah/Fernverkehr und bald auch\n' +
-        'für eine Mitfahrgelegenheit für im Auto.'
+      title: 'Our Mission',
+      body:'To motivate more and more people to switch to' +
+        'public transportation by giving the fastest access to a free ride' +
+        ' and to make it accessible in the long term. For local or long-distance' +
+        ' public transport and soon also for a ride in the car. At the end of the day' +
+        'everybody benefits from a more environment friendly transportation'
     },
     app:{
-      title:'Unsere App',
-      body:'Knightride macht es dir möglich,\n' +
-        'den schnellsten Kontakt zu einer\n' +
-        'Mitfahrgelegenheit zu bekommen. Es ist keine Buchung notwendig.\n' +
-        'Du musst den Ride nur annehmen und hast ihn sicher.\n' +
-        'Alles weitere kannst du im Chat klären.\n' +
-        'Wenn du ein 2. oder 3. Mal mit der selben Mitfahrgelegenheit fahren\n' +
-        'konntest und diese jetzt deine permanente Mitfahrgelegenheit nennen\n' +
-        'kannst, wissen wir, dass wir einen guten Job gemacht haben.'
+      title:'Our App',
+      body:'Knightride makes it possible for you to find the next' +
+        ' free ride in the quickest way.' +
+        ' No booking is necessary.' +
+        ' You just have to accept the ride and you have ' +
+        'it safe. You can clarify everything else in the chat.' +
+        ' If you\'ve been able to ride the same ride for the ' +
+        'second or the third time and now call it your permanent ride,' +
+        ' we know we did a good job.'
     },
     about_app:{
-      title:'Was macht Knightride\n' +
-        'so besonders?',
-      body:'Bei uns steht die Kommunikation zwischen Knight und Rider und ein\n' +
-        'schnelles, intuitives Zusammentreffen beiderlei, um eine Fahrt zu\n' +
-        'organisieren im Vordergrund.'
+      title:'What makes Knightride so special?',
+      body:'We focus on the communication' +
+        ' between the Knight and the Rider for a fast,' +
+        ' and easy organisation of the ride.'
     }
   },
   sectionE: {
-    header: 'Finde jetzt deine \n' +
-      'Mitfahrgelegenheit \n' +
-      'oder nehme mit!',
-    header_small: 'Finde jetzt deine \n' +
-      'Mitfahr-' +
-      'gelegenheit \n' +
-      'oder nehme mit!',
+    header: 'Find out where you can ride for free or ' +
+      'offer a free ride on your ticket',
+    header_small: 'Find out where you can ride for free or ' +
+      'offer a free ride on your ticket!',
   },
 }
