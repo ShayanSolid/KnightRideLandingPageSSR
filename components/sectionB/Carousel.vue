@@ -63,64 +63,34 @@ export default {
       carouselItems: [
         {
           image_name: 'create-ride',
-          head: 'Sei ein Held und \n' +
-            'nimm mit.',
-          body: 'Du bist schneller durch als du\n' +
-            'denkst.\n' +
-            'In nur Sekunden hast du auf \n' +
-            'Knightride einen Ride angeboten.',
+          head: this.$t('sectionB.create_ride.head'),
+          body: this.$t('sectionB.create_ride.body'),
         },
         {
           image_name: 'ride-take',
-          head: 'Schnelle Kommunikation\n' +
-            'und Zugang zu Rides',
-          body: 'Du hast den passenden Ride für dich \n' +
-            'gefunden? Dann schreib den Knight\n' +
-            'einfach mit “    „ an und fangt an\n' +
-            'zu chatten um alles weitere zu klären.\n' +
-            'Geht tausend Mal schneller als auf eine\n' +
-            'Anfrage zu warten',
+          head: this.$t('sectionB.accept_ride.head'),
+          body: this.$t('sectionB.accept_ride.body'),
         },
         {
           image_name: 'chat',
-          head: 'Messaging on Top',
-          body: 'Man könnte es einen kleinen Messenger  \n' +
-            'nennen. Mit unserer implementierten\n' +
-            'Chatfunktion wirst du umgehend von uns \n' +
-            'benachrichtigt wenn du eine Nachricht\n' +
-            'von deinem Knight oder Rider empfängst.\n' +
-            'So bist du immer up to date und \n' +
-            'verpasst keine wichtigen Mitteilungen\n' +
-            'über deinen Ride.\n',
+          head: this.$t('sectionB.chat.head'),
+          body: this.$t('sectionB.chat.body'),
         },
         {
           image_name: 'profile',
-          head: 'Knight oder Rider\n' +
-            'checken',
-          body: 'Und natürlich ist man manchmal auch einfach nur neugierig oder möchte' +
-            'auf Nummer sicher gehen. Mach dir ein umfangreiches Bild von \n' +
-            'deinem Knight oder Rider. Wie wurde er bewertet? Wie oft war \n' +
-            'er/sie/es schon Knight oder ist mitgefahren? Falls eine Bio hinterlassen worden\n' +
-            'ist um so besser.\n',
+          head: this.$t('sectionB.profile1.head'),
+          body: this.$t('sectionB.profile1.body'),
         },
         {
           image_name: 'profile2',
-          head: 'Alle deine Rides\n' +
-            'easy im Blick behalten',
-          body: 'Du kannst ganz einfach sehen\n' +
-            'wo du jemanden mitnehmen wirst,\n' +
-            'bei welchem Ride du selbst\n' +
-            'mitfährst, sehen wen du mitnimmst \n' +
-            'oder bei wem du mitfährst und vieles\n' +
-            'mehr.',
+          head: this.$t('sectionB.profile2.head'),
+          body: this.$t('sectionB.profile2.body'),
           width: '750px',
         },
         {
           image_name: 'profile3',
-          head: 'Aufrufe im Blick haben \n' +
-            'und reagieren',
-          body: 'Sieh wer sich für deinen Ride interessiert \n' +
-            'und reagiere mit einer Nachricht.',
+          head: this.$t('sectionB.profile3.head'),
+          body: this.$t('sectionB.profile3.body'),
         },
       ],
       // image_name: 'create-ride',

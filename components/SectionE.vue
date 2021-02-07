@@ -4,10 +4,10 @@
     <div class="row">
 
       <div class="w-75 col-lg-5 pt-sm-5 float-lg-left justify-content-lg-center">
-        <h1 id="header" class="text-white"> {{ header }}</h1>
+        <h1 id="header" class="text-white"> {{ $t('sectionE.header') }}</h1>
       </div>
       <div class="col-lg-5 pt-sm-5 float-lg-left justify-content-lg-center">
-        <h1 id="header-small" class="text-white"> {{ header_small }}</h1>
+        <h1 id="header-small" class="text-white"> {{ $t('sectionE.header_small') }} </h1>
       </div>
     </div>
   </div>
@@ -16,17 +16,6 @@
 <script>
 export default {
   name: 'SectionE',
-  data () {
-    return {
-      header: 'Finde jetzt deine \n' +
-        'Mitfahrgelegenheit \n' +
-        'oder nehme mit!',
-      header_small: 'Finde jetzt deine \n' +
-        'Mitfahr-' +
-        'gelegenheit \n' +
-        'oder nehme mit!',
-    }
-  },
 }
 </script>
 

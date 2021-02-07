@@ -12,29 +12,29 @@
           <ul class="nav flex-column text-lg-left">
             <li class="nav-item">
               <NuxtLink to="/#sectionB" class="nav-link" href="#">
-                Die App
+                {{ $t('navbar.app') }}
               </NuxtLink>
             </li>
             <li class="nav-item">
               <NuxtLink to="/#sectionC" class="nav-link" href="#">
-                Knight & Rider
+                {{ $t('navbar.KnightAndRider') }}
               </NuxtLink>
             </li>
             <li class="nav-item">
               <NuxtLink to="/#sectionD" class="nav-link" href="#">
-                Über uns
+                {{ $t('navbar.aboutUs') }}
               </NuxtLink>
             </li>
           </ul>
         </div>
         <div class="col-lg-2">
           <h5 class="text-uppercase mb-4 mt-3 font-weight-bold footer-header">
-            Hilfe
+            {{ $t('navbar.help') }}
           </h5>
           <ul class="nav flex-column">
             <li class="nav-item">
               <NuxtLink to="/#sectionB" class="nav-link" href="#">
-                Kontakt
+                {{ $t('navbar.contact') }}
               </NuxtLink>
             </li>
           </ul>
