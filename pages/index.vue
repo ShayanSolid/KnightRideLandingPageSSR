@@ -1,5 +1,5 @@
 <template>
-  <div class="container-fluid">
+  <div class="">
     <div class="container-fluid d-flex flex-column m-0 p-0">
       <div class="row">
         <div class="col p-0">
@@ -27,16 +27,16 @@
 
       <div class="row">
         <div class="col p-0">
-          <div id="sectionE" class="p-4">
-            <SectionE/>
+          <div id="sectionD" class="p-4">
+            <SectionD/>
           </div>
         </div>
       </div>
 
       <div class="row">
         <div class="col p-0">
-          <div id="sectionD" class="vh-100 p-4">
-            <SectionD/>
+          <div id="sectionE" class="vh-100 p-4">
+            <SectionE/>
           </div>
         </div>
       </div>
@@ -49,11 +49,13 @@ export default {}
 </script>
 
 <style>
+
+
 #sectionA #sectionB #sectionC #sectionD #sectionE {
   background-color: #F7F8FA;
 }
 
-#sectionD {
+#sectionE {
   background: #F7F8FA url("../assets/bg-sectionD.png") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;

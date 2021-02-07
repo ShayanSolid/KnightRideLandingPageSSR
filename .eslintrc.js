@@ -9,10 +9,13 @@ module.exports = {
   },
   extends: [
     "plugin:vue/essential",
-    "eslint:recommended"
+    "eslint:recommended",
+    "plugin:json/recommended"
   ],
   plugins: [
   ],
   // add your custom rules here
-  rules: {}
+  rules: {
+    'vue/no-multiple-template-root': 0
+  }
 }

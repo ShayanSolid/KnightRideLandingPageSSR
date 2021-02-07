@@ -1,4 +1,7 @@
-export default {
+
+module.exports = {
+  ssr: true,
+  // target: 'static',
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'KnightRideLandingPageSSR',
@@ -17,12 +20,22 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
+    'hooper',
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
   ],
 
+  i18n: {
+    locales: [
+      { code: 'en', iso: 'en-US', file: 'en.json', dir: 'ltr' },
+      { code: 'de', iso: 'de-DE', file: 'de.json', dir: 'ltr' },
+    ],
+    langDir: 'locales/',
+    defaultLocale: 'en',
+    lazy: true,
+  },
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
 
@@ -35,7 +48,8 @@ export default {
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     // https://go.nuxtjs.dev/bootstrap
-    'bootstrap-vue/nuxt'
+    'bootstrap-vue/nuxt',
+    'nuxt-i18n'
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build

@@ -68,11 +68,11 @@
       <div class="col-12 p-0">
         <div class="text-center">
           <div>
-            &copy; 2020 Copyright: <a class="link" href="https://www.knighride.app"> knightride.app </a>
+            &copy; 2021 Copyright: <a class="link" href="https://www.knighride.app"> knightride.app </a>
           </div>
         </div>
       </div>
-    </div>`
+    </div>
   </div>
 </template>
 

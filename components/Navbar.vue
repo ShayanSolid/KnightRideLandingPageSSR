@@ -1,7 +1,7 @@
 <template>
   <nav id="nav" class="navbar navbar-expand-lg navbar-light bg-light fixed-top ">
-    <a class="navbar-brand mx-auto pr-lg-2 pl-2 pr-sm-0" href="#">
-      <a href="/#sectionA" class="container">
+    <NuxtLink to="/#sectionA" class="navbar-brand mx-auto pr-lg-2 pl-2 pr-sm-0">
+      <NuxtLink to="/#sectionA" class="container">
         <picture>
           <source
             srcset="../assets/knightride-logo.webp"
@@ -19,9 +19,9 @@
             alt="Logo"
           >
         </picture>
-        Knightride
-      </a>
-    </a>
+        {{ $t('hello') }}
+      </NuxtLink>
+    </NuxtLink>
     <button
       class="navbar-toggler"
       type="button"
@@ -31,7 +31,7 @@
       aria-expanded="false"
       aria-label="Toggle navigation"
     >
-      <span class="navbar-toggler-icon" />
+      <span class="navbar-toggler-icon"/>
     </button>
 
     <div id="navbarSupportedContent" class="collapse navbar-collapse">
