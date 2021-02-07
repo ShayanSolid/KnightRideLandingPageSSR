@@ -2,7 +2,7 @@
   <div>
     <b-navbar toggleable="lg" type="light" variant="light" fixed="top">
       <b-navbar-brand href="#">
-        <NuxtLink to="/#sectionA" class="container">
+        <NuxtLink to="/" class="container">
           <picture>
             <source
               srcset="../assets/knightride-logo.webp"
@@ -35,7 +35,7 @@
 
         <!-- Right aligned nav items -->
         <b-navbar-nav class="ml-auto">
-          <b-nav-item-dropdown :text="$t('lang')" right>
+          <b-nav-item-dropdown :text="$t('lang')" right no-caret>
             <nuxt-link :to="switchLocalePath('en')" class="nav-link">English</nuxt-link>
             <nuxt-link :to="switchLocalePath('de')" class="nav-link">Deutsch</nuxt-link>
           </b-nav-item-dropdown>
