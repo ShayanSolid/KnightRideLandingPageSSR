@@ -29,8 +29,8 @@ module.exports = {
 
   i18n: {
     locales: [
-      { code: 'en', iso: 'en-US', file: 'en.json', dir: 'ltr' },
-      { code: 'de', iso: 'de-DE', file: 'de.json', dir: 'ltr' },
+      { code: 'en', iso: 'en-US', file: 'en.js', dir: 'ltr' },
+      { code: 'de', iso: 'de-DE', file: 'de.js', dir: 'ltr' },
     ],
     langDir: 'locales/',
     defaultLocale: 'en',
