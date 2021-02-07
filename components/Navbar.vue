@@ -1,60 +1,48 @@
 <template>
-  <nav id="nav" class="navbar navbar-expand-lg navbar-light bg-light fixed-top ">
-    <NuxtLink to="/#sectionA" class="navbar-brand mx-auto pr-lg-2 pl-2 pr-sm-0">
-      <NuxtLink to="/#sectionA" class="container">
-        <picture>
-          <source
-            srcset="../assets/knightride-logo.webp"
-            type="image/webp"
-          >
-          <source
-            srcset="../assets/knightride-logo.png"
-            type="image/png"
-          >
-          <img
-            id="knightride_logo"
-            class=" d-inline-block align-top pr-2"
-            width="30"
-            src="../assets/Group-838_2x.png"
-            alt="Logo"
-          >
-        </picture>
-        Knightride
-      </NuxtLink>
-    </NuxtLink>
-    <button
-      class="navbar-toggler"
-      type="button"
-      data-toggle="collapse"
-      data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent"
-      aria-expanded="false"
-      aria-label="Toggle navigation"
-    >
-      <span class="navbar-toggler-icon"/>
-    </button>
+  <div>
+    <b-navbar toggleable="lg" type="light" variant="light" fixed="top">
+      <b-navbar-brand href="#">
+        <NuxtLink to="/#sectionA" class="container">
+          <picture>
+            <source
+              srcset="../assets/knightride-logo.webp"
+              type="image/webp"
+            >
+            <source
+              srcset="../assets/knightride-logo.png"
+              type="image/png"
+            >
+            <img
+              id="knightride_logo"
+              class=" d-inline-block align-top pr-2"
+              width="30"
+              src="../assets/Group-838_2x.png"
+              alt="Logo"
+            >
+          </picture>
+          Knightride
+        </NuxtLink>
+      </b-navbar-brand>
 
-    <div id="navbarSupportedContent" class="collapse navbar-collapse">
-      <ul class="navbar-nav mr-auto ">
-        <li class="nav-item">
-          <a href="/#sectionB" class="nav-link">{{ $t('navbar.app') }}</a>
-        </li>
-        <li class="nav-item">
-          <a href="/#sectionC" class="nav-link">{{ $t('navbar.KnightAndRider') }}</a>
-        </li>
-        <li class="nav-item">
-          <a href="/#sectionD" class="nav-link">{{ $t('navbar.aboutUs') }}</a>
-        </li>
-        <li class="nav-item">
-          <nuxt-link :to="switchLocalePath('en')" class="nav-link">English</nuxt-link>
-        </li>
-        <li class="nav-item">
-          <nuxt-link :to="switchLocalePath('de')" class="nav-link">Deutsch</nuxt-link>
-        </li>
+      <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
-      </ul>
-    </div>
-  </nav>
+      <b-collapse id="nav-collapse" is-nav>
+        <b-navbar-nav>
+          <b-nav-item href="/#sectionB" class="nav-link">{{ $t('navbar.app') }}</b-nav-item>
+          <b-nav-item href="/#sectionC" class="nav-link">{{ $t('navbar.KnightAndRider') }}</b-nav-item>
+          <b-nav-item href="/#sectionD" class="nav-link">{{ $t('navbar.aboutUs') }}</b-nav-item>
+        </b-navbar-nav>
+
+        <!-- Right aligned nav items -->
+        <b-navbar-nav class="ml-auto">
+          <b-nav-item-dropdown :text="$t('lang')" right>
+            <nuxt-link :to="switchLocalePath('en')" class="nav-link">English</nuxt-link>
+            <nuxt-link :to="switchLocalePath('de')" class="nav-link">Deutsch</nuxt-link>
+          </b-nav-item-dropdown>
+        </b-navbar-nav>
+      </b-collapse>
+    </b-navbar>
+  </div>
 </template>
 
 <script>

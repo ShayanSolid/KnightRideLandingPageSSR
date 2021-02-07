@@ -1,5 +1,6 @@
 export default {
-  hello: 'hallo',
+  lang: 'EN',
+  download: "Download Now",
   navbar: {
     app: 'The App',
     KnightAndRider: 'Knight & Rider',

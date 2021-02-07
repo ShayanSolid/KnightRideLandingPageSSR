@@ -33,9 +33,9 @@
           </h5>
           <ul class="nav flex-column">
             <li class="nav-item">
-              <NuxtLink to="/#sectionB" class="nav-link" href="#">
+              <a class="nav-link" href="mailto:info@knightride.app">
                 {{ $t('navbar.contact') }}
-              </NuxtLink>
+              </a>
             </li>
           </ul>
         </div>
@@ -44,23 +44,23 @@
 
     <div>
       <div class="row pt-2 pb-2 justify-content-center">
-        <div class=" social-icons pl-1 pr-1">
-          <a class=" " href="">
-            <img src="../assets/social-network-icons/facebook.svg" alt="facebook-logo">
+        <div class="  pl-1 pr-1">
+          <a href="https://www.facebook.com/knightrideapp">
+            <img src="../assets/social-network-icons/facebook.png" alt="facebook-logo">
           </a>
         </div>
 
-        <div class=" social-icons pl-1 pr-1">
-          <a class=" " href="">
-            <img src="../assets/social-network-icons/instagram.svg" alt="facebook-logo">
+        <div class=" pl-1 pr-1">
+          <a href="https://instagram.com/knightrideapp?igshid=11rjcau358cqw">
+            <img src="../assets/social-network-icons/instagram.png" alt="instagram-logo">
           </a>
         </div>
 
-        <div class=" social-icons pl-1 pr-1">
-          <a class=" " href="">
-            <img src="../assets/social-network-icons/twitter.svg" alt="facebook-logo">
-          </a>
-        </div>
+<!--        <div class=" social-icons pl-1 pr-1">-->
+<!--          <a class=" " href="">-->
+<!--            <img src="../assets/social-network-icons/twitter.svg" alt="twitter-logo">-->
+<!--          </a>-->
+<!--        </div>-->
       </div>
     </div>
 
