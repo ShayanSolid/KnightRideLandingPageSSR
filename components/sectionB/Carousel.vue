@@ -112,7 +112,6 @@ export default {
 
 .hooper-indicator.is-active{
   background-color: #FFCC00 ;
-  //opacity: 100%;
 }
 
 
