@@ -55,30 +55,31 @@
             <img src="../assets/social-network-icons/instagram.png" alt="instagram-logo">
           </a>
         </div>
-
-<!--        <div class=" social-icons pl-1 pr-1">-->
-<!--          <a class=" " href="">-->
-<!--            <img src="../assets/social-network-icons/twitter.svg" alt="twitter-logo">-->
-<!--          </a>-->
-<!--        </div>-->
       </div>
     </div>
 
-    <div class="copyright row vw-100 py-3">
+    <div class="copyright row vw-100 py-2 justify-content-center">
       <div class="col-12 p-0">
-        <div class="text-center">
-          <div>
-            &copy; 2021 Copyright: <a class="link" href="https://www.knighride.app"> knightride.app </a>
-          </div>
+        <div>
+          <a class="link" download="" href="/public/AGB_&_DATENSCHUTZ.pdf"> AGB’s & Nutzungsbedingungen </a>
+          |
+          &copy; 2021 Copyright: <a class="link" href="https://www.knighride.app"> knightride.app </a>
         </div>
       </div>
+<!--      <div class="col-3 p-0">-->
+<!--        <div class="text-center">-->
+<!--          <div>-->
+<!--            &copy; 2021 Copyright: <a class="link" href="https://www.knighride.app"> knightride.app </a>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--      </div>-->
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: "Footer"
+  name: 'Footer'
 }
 </script>
 
@@ -92,14 +93,13 @@ export default {
 }
 
 .link {
-  color: #2c3e50;
-}
-
-.social-icons {
-  width: 50px;
+  color: white;
 }
 
 .copyright {
-  background-color: #FECC2F;
+  font-size: 0.8em;
+  background-color: black;
+  color: white;
+
 }
 </style>
