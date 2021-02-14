@@ -1,8 +1,8 @@
 <template>
   <div>
     <b-navbar toggleable="lg" type="light" variant="light" fixed="top">
-      <b-navbar-brand href="#">
-        <NuxtLink to="/" class="container">
+      <b-navbar-brand href="/">
+        <div class="container">
           <picture>
             <source
               srcset="../assets/knightride-logo.webp"
@@ -21,7 +21,7 @@
             >
           </picture>
           Knightride
-        </NuxtLink>
+        </div>
       </b-navbar-brand>
 
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>

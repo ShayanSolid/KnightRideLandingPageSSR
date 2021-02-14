@@ -1,6 +1,6 @@
 <template>
   <div id="app" class="container-fluid">
-<!--    <Navbar/>-->
+    <Navbar/>
     <Nuxt />
     <Footer/>
   </div>
