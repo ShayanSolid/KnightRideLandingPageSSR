@@ -1,7 +1,7 @@
 <template>
   <div>
     <b-navbar toggleable="lg" type="light" variant="light" fixed="top">
-      <b-navbar-brand href="/">
+      <b-navbar-brand href="#">
         <div class="container">
           <picture>
             <source
