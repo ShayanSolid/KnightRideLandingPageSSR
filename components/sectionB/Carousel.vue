@@ -102,7 +102,7 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
 
 .hooper-indicator {
   background-color: #7A3CEF ;
