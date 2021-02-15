@@ -38,7 +38,7 @@ export default {
         'Even better if they have written a Bio about themselves',
     },
     profile2: {
-      head: 'Easily keep eep an eye on all your rides',
+      head: 'Easily keep an eye on all your rides',
       body: 'You can easily see where do you take someone with you, in which ride your are ' +
         'going with, who is the one, whom you are taking on your ticket or who is sharing her/his ' +
         'ticket with you and much more',
