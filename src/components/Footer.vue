@@ -61,18 +61,11 @@
     <div class="copyright row vw-100 py-2 justify-content-center">
       <div class="col-12 p-0">
         <div>
-          <a class="link" download="" href="/public/AGB_&_DATENSCHUTZ.pdf"> AGB’s & Nutzungsbedingungen </a>
+          <a class="link" download="" href="/AGB.pdf"> AGB’s & Nutzungsbedingungen </a>
           |
           &copy; 2021 Copyright: <a class="link" href="https://www.knighride.app"> knightride.app </a>
         </div>
       </div>
-<!--      <div class="col-3 p-0">-->
-<!--        <div class="text-center">-->
-<!--          <div>-->
-<!--            &copy; 2021 Copyright: <a class="link" href="https://www.knighride.app"> knightride.app </a>-->
-<!--          </div>-->
-<!--        </div>-->
-<!--      </div>-->
     </div>
   </div>
 </template>
