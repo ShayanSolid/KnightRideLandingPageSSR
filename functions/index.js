@@ -23,7 +23,7 @@ async function handleRequest(req, res) {
       process.exit(1);
     }
   }
-  res.set('Cache-Control', 'public, max-age=2592000, s-maxage=2592000');
+  res.set('Cache-Control', 'public, max-age=86400, s-maxage=2592000');
   await nuxt.render(req, res);
 }
 
