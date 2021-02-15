@@ -10,7 +10,7 @@ export default {
   },
   sectionA: {
     short_description: 'Sharing a ride in public transportation' +
-      ' has never been easier. You can be driven on the bus,' +
+      ' has never been easier. You can share your ticket ot be taken for free on the bus,' +
       ' on the tram, on the train.\n ' +
       '\n Try it out!',
     register_text: 'Be informed as soon as we go live!',
@@ -44,14 +44,14 @@ export default {
         'ticket with you and much more',
     },
     profile3: {
-      head: 'Have an eye on your rides\' views and react',
+      head: 'Have an eye on your rides\' views to react fast',
       body: 'See who is interested in your ride and respond them with a message.',
     }
   },
   sectionC: {
     knight: {
       name: 'The Knight',
-      description: 'The Knight owns a subscription or a purchased ticket, with which' +
+      description: 'The Knight owns a subscription or a purchased ticket, with which ' +
         'she/he can take another person or multiple people for free on her/his ticket' +
         'Taking additional passengers with these tickets are often possible during the whole day on weekends' +
         'and from 7pm during the week days.' +
@@ -59,18 +59,18 @@ export default {
     },
     rider: {
       name: 'The Rider',
-      description: 'The rider is looking for a ride. The Rider is communicative and wants ' +
+      description: 'The Rider is looking for a ride. The Rider is communicative and wants ' +
         'to get from A to B as cheaply and quickly as possible.'
     }
   },
   sectionD: {
     mission: {
       title: 'Our Mission',
-      body:'To motivate more and more people to switch to' +
-        'public transportation by giving the fastest access to a free ride' +
-        ' and to make it accessible in the long term. For local or long-distance' +
-        ' public transport and soon also for a ride in the car. At the end of the day' +
-        'everybody benefits from a more environment friendly transportation'
+      body:'Motivating more and more people to switch to ' +
+        'public transportation by giving the fastest access to a free ride ' +
+        ' and to make it accessible in the long term. For local or long-distance ' +
+        ' public transportation and soon also for a sharing a ride in the car. At the end of the day ' +
+        ' everybody benefits from a more environment friendly transportation'
     },
     app:{
       title:'Our App',
