@@ -9,7 +9,22 @@
       "rm -rf public/* && mkdir -p public/nuxt && cp -r functions/.nuxt/dist/client/ public/nuxt && cp -a static/. public/"
     ],
     "public": "public",
-    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "headers": [
+      {
+        "source": "**/*.html",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "no-public, max-age=2592000, s-maxage=2592000"
+          }
+        ]
+      }
+    ],
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
     "rewrites": [
       {
         "source": "**",
