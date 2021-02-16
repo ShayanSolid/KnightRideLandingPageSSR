@@ -8,9 +8,12 @@ export default {
     help: 'Help',
     contact: 'Contact'
   },
+  footer:{
+    terms_and_condition: "Terms and Conditions"
+  },
   sectionA: {
     short_description: 'Sharing a ride in public transportation' +
-      ' has never been easier. You can share your ticket ot be taken for free on the bus,' +
+      ' has never been easier. You can share your ticket or be taken for free on the bus,' +
       ' on the tram, on the train.\n ' +
       '\n Try it out!',
     register_text: 'Be informed as soon as we go live!',
@@ -22,19 +25,19 @@ export default {
     },
     accept_ride: {
       head: 'Fast communication and access to all rides',
-      body: 'Have you found the right ride? Then text your Knight with the "chat" button' +
+      body: 'Have you found the right ride? Then text your Knight with the "chat" button ' +
         'to clarify everything else. It works much faster than waiting for a request',
     },
     chat: {
       head: 'Messaging on Top',
-      body: 'You can call it a small messenger. With our integrated messaging function' +
+      body: 'You can call it a small messenger. With our integrated messaging function ' +
         ' you\'ll be informed as soon as your Rider or Knight texts you. So you are up to date ' +
         'and won\'t miss any important information about your ride.',
     },
     profile1: {
       head: 'Checking the Knight or Rider',
-      body: 'And of course you can be curios sometimes or want to play it safe. Get to know' +
-        'your Knight or Rider. How are their reviews? How often were they a Knight or Rider?' +
+      body: 'And of course you can be curious sometimes or want to play it safe. Get to know ' +
+        'your Knight or Rider. How are their reviews? How often were they a Knight or Rider? ' +
         'Even better if they have written a Bio about themselves',
     },
     profile2: {
@@ -52,8 +55,8 @@ export default {
     knight: {
       name: 'The Knight',
       description: 'The Knight owns a subscription or a purchased ticket, with which ' +
-        'she/he can take another person or multiple people for free on her/his ticket' +
-        'Taking additional passengers with these tickets are often possible during the whole day on weekends' +
+        'she/he can take another person or multiple people for free on her/his ticket. ' +
+        'Taking additional passengers with these tickets are always possible during the whole day on weekends ' +
         'and from 7pm during the week days.' +
         'The knight is generous and supportive and doesnt hesitate to help.'
     },
@@ -74,7 +77,7 @@ export default {
     },
     app:{
       title:'Our App',
-      body:'Knightride makes it possible for you to find the next' +
+      body:'Knightride makes it possible for you to find the next ' +
         ' free ride in the quickest way.' +
         ' No booking is necessary.' +
         ' You just have to accept the ride and you have ' +
@@ -85,8 +88,8 @@ export default {
     },
     about_app:{
       title:'What makes Knightride so special?',
-      body:'We focus on the communication' +
-        ' between the Knight and the Rider for a fast,' +
+      body:'We focus on the communication ' +
+        ' between the Knight and the Rider for a fast, ' +
         ' and easy organisation of the ride.'
     }
   },

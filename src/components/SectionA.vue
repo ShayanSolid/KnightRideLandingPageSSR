@@ -4,12 +4,12 @@
     <div class="row">
       <div class="col-lg-5  pt-4 my-auto mx-auto">
         <picture>
-          <source srcset="~/assets/Knightide-Textlogo_2x.webp"
+          <source srcset="~/assets/logo-head-text.webp"
                   type="image/webp">
-          <source srcset="~/assets/Knightide-Textlogo@2x.png"
+          <source srcset="~/assets/logo-head-text.png"
                   type="image/png">
           <img id="knightride-logo-type" class="img-fluid pb-4"
-               src="~/assets/Knightide-Textlogo@2x.png"
+               src="~/assets/logo-head-text.png"
              alt="knightride-logo-type">
         </picture>
         <h3 class="text-body pb-4"> {{ $t('sectionA.short_description') }}</h3>
@@ -39,17 +39,17 @@
 
 export default {
   name: 'SectionA',
-  data() {
+  data () {
     return {
       short_description: 'Du wirst jetzt mitgenommen\n' +
-          'und kannst noch einfacher \n' +
-          'Mitnehmen als je zuvor.\n' +
-          'Mit dem Bus. Mit der Bahn.\n' +
-          'Probier es aus.',
+        'und kannst noch einfacher \n' +
+        'Mitnehmen als je zuvor.\n' +
+        'Mit dem Bus. Mit der Bahn.\n' +
+        'Probier es aus.',
       register_text: 'Bekommst es mit sobald wir launchen!',
-    };
+    }
   },
-};
+}
 </script>
 
 <style scoped>
@@ -59,8 +59,6 @@ export default {
 }
 
 #knightride-logo-type {
-  width: 70%;
+  width: 100%;
 }
-
-
 </style>

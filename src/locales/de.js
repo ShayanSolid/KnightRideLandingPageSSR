@@ -8,10 +8,12 @@ export default {
     help: 'Hilfe',
     contact: 'Kontakt'
   },
+  footer:{
+    terms_and_condition: "AGB’s & Nutzungsbedingungen"
+  },
   sectionA: {
-    short_description: 'Du wirst jetzt mitgenommen' +
-      'und kannst noch einfacher ' +
-      'Mitnehmen als je zuvor. ' +
+    short_description: 'Wir sind deine Mitfahrgelegenheit für den öffentlichen Fern- und Nahverkehr. ' +
+      'Du kannst jetzt noch einfacher mitnehmen oder mitgenommen werden als je zuvor. ' +
       'Mit dem Bus. Mit der Bahn. ' +
       'Probier es aus!',
     register_text: 'Bekommst es mit sobald wir launchen!',
@@ -27,7 +29,7 @@ export default {
       head: 'Schnelle Kommunikation und Zugang zu Rides',
       body: 'Du hast den passenden Ride für dich \n' +
         'gefunden? Dann schreib den Knight\n' +
-        'einfach mit “Chat-Knopf„ an und fangt an\n' +
+        'einfach mit “Chat-Button„ an und fangt an\n' +
         'zu chatten um alles weitere zu klären.\n' +
         'Geht tausend Mal schneller als auf eine\n' +
         'Anfrage zu warten',
@@ -46,7 +48,7 @@ export default {
     profile1: {
       head: 'Knight oder Rider\n' +
         'checken',
-      body: 'Und natürlich ist man manchmal auch einfach nur neugierig oder möchte' +
+      body: 'Und natürlich ist man manchmal auch einfach nur neugierig oder möchte ' +
         'auf Nummer sicher gehen. Mach dir ein umfangreiches Bild von \n' +
         'deinem Knight oder Rider. Wie wurde er bewertet? Wie oft war \n' +
         'er/sie/es schon Knight oder ist mitgefahren? Falls eine Bio hinterlassen worden\n' +
@@ -73,7 +75,7 @@ export default {
     knight: {
       name: 'Der Knight',
       description: 'Der Knight besitzt eine Abo-Karte oder eine gekaufte Karte\n' +
-        'der Verkehrsbetriebe mit dieser er berechtigt ist, je nach Bundesland eine oder mehrere\n' +
+        'der Verkehrsbetriebe mit dieser er berechtigt ist, je nach Bundesland, eine oder mehrere\n' +
         'Personen an Wochentagen ab 19Uhr und am Wochenende ganztägig\n' +
         'mitzunehmen.\n' +
         'Der Knight ist großzügig und warmherzig. Wenn er gebraucht wird fühlt er\n' +
@@ -93,7 +95,7 @@ export default {
         'zu einer Mitfahrgelegenheit\n' +
         'zu ermöglichen und diese auch langfristig für dich zugänglich\n' +
         'zu machen. Für den öffentlichen Nah/Fernverkehr und bald auch\n' +
-        'für eine Mitfahrgelegenheit für im Auto.'
+        'für eine Mitfahrgelegenheit im Auto.'
     },
     app:{
       title:'Unsere App',
@@ -107,8 +109,8 @@ export default {
         'kannst, wissen wir, dass wir einen guten Job gemacht haben.'
     },
     about_app:{
-      title:'Was macht Knightride\n' +
-        'so besonders?',
+      title:'Was macht Knightride ' +
+        'besonders?',
       body:'Bei uns steht die Kommunikation zwischen Knight und Rider und ein\n' +
         'schnelles, intuitives Zusammentreffen beiderlei, um eine Fahrt zu\n' +
         'organisieren im Vordergrund.'
