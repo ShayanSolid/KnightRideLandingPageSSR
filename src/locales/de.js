@@ -73,18 +73,18 @@ export default {
   },
   sectionC: {
     knight: {
-      name: 'Der Knight',
-      description: 'Der Knight besitzt eine Abo-Karte oder eine gekaufte Karte\n' +
-        'der Verkehrsbetriebe mit dieser er berechtigt ist, je nach Bundesland, eine oder mehrere\n' +
-        'Personen an Wochentagen ab 19Uhr und am Wochenende ganztägig\n' +
-        'mitzunehmen.\n' +
-        'Der Knight ist großzügig und warmherzig. Wenn er gebraucht wird fühlt er\n' +
-        'sich richtig. Unser/e Ritter/in in der goldenen Rüstung eben.'
+      name: 'Die Knights',
+      description: 'Die Knights besitzen eine Abo-Karte oder eine gekaufte Karte ' +
+        'der Verkehrsbetriebe mit dieser sie berechtigt sind, eine oder mehrere ' +
+        'Personen an Wochentagen ab 19Uhr und am Wochenende ganztägig ' +
+        'mitzunehmen.* \n' +
+        'Die Knights sind großzügig und warmherzig. Wenn sie gebraucht werden ' +
+        'fühlen sie sich richtig. Unsere Ritter in der goldenen Rüstung eben.'
     },
     rider: {
-      name: 'Der Rider',
-      description: 'Der Rider sucht nach einer Mitfahrgelegenheit und ist kommunikativ.\n' +
-        'Sein Ziel ist es meistens so günstig und schnell wie möglich von A nach B\n' +
+      name: 'Die Rider',
+      description: 'Die Rider suchen nach einer Mitfahrgelegenheit und sind meist kommunikativ.\n' +
+        'Ihr Ziel ist es meistens so günstig und schnell wie möglich von A nach B\n' +
         'zu kommen.'
     }
   },

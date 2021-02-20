@@ -114,5 +114,8 @@ export default {
   background-color: #FFCC00 ;
 }
 
+.hooper-next:focus{ outline: none; }
+.hooper-prev:focus{ outline: none; }
+.hooper:focus{ outline:none; }
 
 </style>

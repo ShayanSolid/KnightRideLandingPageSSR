@@ -12,7 +12,7 @@
                src="~/assets/logo-head-text.png"
              alt="knightride-logo-type">
         </picture>
-        <h3 class="text-body pb-4"> {{ $t('sectionA.short_description') }}</h3>
+        <h3 class="text-body pb-4 text-left"> {{ $t('sectionA.short_description') }}</h3>
 
         <div class="container-fluid align-content-end">
           <DownloadIcons/>
