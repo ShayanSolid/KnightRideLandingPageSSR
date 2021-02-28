@@ -5,6 +5,7 @@
     ]
   },
   "hosting": {
+    "appAssociation": "AUTO",
     "predeploy": [
       "rm -rf public/* && mkdir -p public/nuxt && cp -r functions/.nuxt/dist/client/ public/nuxt && cp -a static/. public/"
     ],
@@ -26,6 +27,10 @@
       "**/node_modules/**"
     ],
     "rewrites": [
+      {
+        "source": "/link/**",
+        "dynamicLinks": true
+      },
       {
         "source": "**",
         "function": "ssrapp"

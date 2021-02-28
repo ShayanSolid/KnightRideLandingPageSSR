@@ -4,14 +4,15 @@ module.exports = {
   // target: 'static',
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'KnightRideLandingPageSSR',
+    title: 'KnightRide',
     htmlAttrs: {
       lang: 'en'
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' }
+      { hid: 'description', name: 'description', content: 'KnightRide - Sharing a ride in public transportation has never been easier. Share your ticket or be taken for free on the bus, tram or train. Try it out!' },
+      { hid: 'title', name: 'title', content: 'KnightRide - the cross platform rides sharing application'}
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
@@ -49,8 +50,13 @@ module.exports = {
   modules: [
     // https://go.nuxtjs.dev/bootstrap
     'bootstrap-vue/nuxt',
-    'nuxt-i18n'
+    'nuxt-i18n',
+    '@nuxtjs/sitemap'
   ],
+
+  sitemap: {
+    hostname: 'https://knightride.app',
+  },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
